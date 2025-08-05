@@ -1,9 +1,5 @@
-import { Form } from "./components/Form";
+import { ExpenseSplitterForm } from './components/ExpenseSplitterForm';
 
 export function App() {
-  return (
-
-  <Form />
-
-  )
+	return <ExpenseSplitterForm />;
 }
